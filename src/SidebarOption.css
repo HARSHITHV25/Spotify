@@ -1,0 +1,50 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s all ease-in-out;
+}
+
+.playlists {
+    margin-bottom: 10px;
+}
+
+.sidebarOption:hover {
+    transition: 0.2s all ease-in-out;
+    color: white;
+    font-size: 1.1rem !important;
+}
+
+.sidebar>hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebarOption__icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebarOption__p {
+    display: flex;
+    align-items: center !important;
+}
+
+.sidebarOption p {
+    margin-top: 10px !important;
+    margin-left: 5px;
+    align-items: center !important;
+    font-size: 15px;
+}
+
+.sidebarOption img {
+    object-fit: contain;
+    align-items: center;
+    border-radius: 50px;
+    padding: 10px;
+    margin-right: 2px;
+    height: 40px;
+}
